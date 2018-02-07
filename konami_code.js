@@ -20,5 +20,5 @@ function init() {
   }
 
   var body = document.querySelector('body');
-  body.addEventHandler(e, onKeyDownHandler);
+  body.addEventHandler('click', onKeyDownHandler);
 }
