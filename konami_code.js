@@ -4,10 +4,10 @@ function init() {
   console.log('a');
   var body = document.querySelector('body');
   body.addEventListener('keydown', function onKeyDownHandler(event) {
-    var e = event;
-    console.log(e);
+    var e = event;//
+    console.log(`e:${e}`);//
     const key = parseInt(e.detail || e.which);
-    console.log(key);
+    console.log(`key:${key}`);
     if (key === code[index]) {
       index++;
 
