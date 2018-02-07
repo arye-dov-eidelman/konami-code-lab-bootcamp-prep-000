@@ -18,6 +18,9 @@ function init() {
       index = 0;
     }
   }
+
+  var body = document.querySelector('body');
+  body.addEventHandler(e);
 }
 
-var body = document.querySelect('body');
+
