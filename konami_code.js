@@ -20,7 +20,5 @@ function init() {
   }
 
   var body = document.querySelector('body');
-  body.addEventHandler(e);
+  body.addEventHandler(e, onKeyDownHandler);
 }
-
-
