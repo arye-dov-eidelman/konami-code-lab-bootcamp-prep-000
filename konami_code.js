@@ -8,7 +8,7 @@ function init() {
     console.log(e);
     const key = parseInt(e.detail || e.which);
     console.log(key);
-    if (key === alphabet[index]) {
+    if (key === e.alphabet[index]) {
       index++;
 
       if (index === alphabet.length) {
