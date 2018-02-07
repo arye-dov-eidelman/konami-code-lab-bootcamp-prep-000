@@ -3,7 +3,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   console.log('a');
   var body = document.querySelector('body');
-  body.addEventListener('keyDown', function onKeyDownHandler(event) {
+  body.addEventListener('keydown', function onKeyDownHandler(event) {
     var e = event;
     console.log(e);
     const key = parseInt(e.detail || e.which);
