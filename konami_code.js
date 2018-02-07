@@ -1,7 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
-  
   console.log('a');
   var body = document.querySelector('body');
   body.addEventHandler('click', function onKeyDownHandler(event) {
@@ -22,5 +21,5 @@ function init() {
       index = 0;
     }
   })
-
 }
+init()
